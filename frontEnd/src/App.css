@@ -1,0 +1,193 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+/* body{
+    background-image: linear-gradient( #2196f3 , #0ff2fe );
+    color:white;
+    
+    background-attachment: fixed;
+    
+} */
+body{
+    /* background-image:url("../images//aeroplane2.jpg"); */
+     background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h2{font-weight: bolder;
+    text-align: center;
+    padding-top: 1.3rem;
+}
+.outer{
+     height:80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#outer2{
+    height:90%;
+     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border-radius: 0.5rem;
+    padding:8px;
+    width: auto  !important;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition:0.5s ease-in-out;
+}
+.full_width{
+    width:90%;
+    margin:10px;
+}
+.input{
+    margin:20px;
+    padding:0px 0px 0px 0px;
+    width: auto;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background-color: white;
+}
+.input_tag,.btn_:focus{
+    border: none;
+     
+    background-color:transparent;
+
+}
+.input_tag,.btn_,select,option{
+    border: none;
+    width:auto; 
+    font-size: 0.8rem;
+    background-color:transparent;
+}
+i{
+    padding:8px;
+}
+.input_tag,.btn_,select,option:active{
+    border: none;   
+    background-color: transparent;
+}
+.btn_{
+    background-color: black;
+    color:white;
+    width: 100%;
+    padding:4px;
+}
+.btn_:active{
+    background-color: white;
+    color:black;
+}
+input {
+    outline: none;
+}
+.inline{
+    display: inline-block;
+    align-items: flex-start !important;
+}
+#detail_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.lis{
+    width:33%;
+}
+
+.fab{
+    color:black;
+}
+.fas{
+    color:black;
+}
+small{
+    text-align: center;
+}
+.pad{
+    padding: 4px 8px 4px 8px;
+}
+
+
+/*scroll bar */
+/* width */
+::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: yellow; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgb(0, 0, 0); 
+    transition: 0.5s ease-in-out;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+.margin-high{
+    margin-top: 5rem;
+}
+.container:hover{
+    background-color: rgba(0, 0, 0, 0.7)
+}
+@media screen and (max-width:450px){
+    .outer-r{
+        height:auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-r{
+        border-radius: none;
+        padding:0px;
+        background-color: transparent;
+        width: 90%;
+        padding:4rem 1rem 5rem 1rem;
+    }
+    .inline-r{
+        display: block;
+        width: 80%;
+    }
+    i{
+        padding:8px;
+    }
+    .pad{
+        padding: 2px 4px 2px 4px;
+    }
+    .btn_{
+        padding:8px;
+    }
+    .input_tag{
+        font-size: 1.3rem;
+    }
+    small{
+        font-size: 1rem;
+    }
+    option{
+        font-size: 0.7rem;
+        padding:2px;
+    }
+    .b-r{ 
+        height: auto;
+        padding:1rem 1rem 1rem 1rem;
+    }
+    .dd{
+        border: 2px double tomato;
+    }
+    .margin-high{
+        margin-top: 0rem;
+    }
+}

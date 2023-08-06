@@ -1,0 +1,48 @@
+.card_background{
+    padding: 10px;
+    padding-top: 50px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+   }
+  .welome{
+    color:yellow  ;
+  }
+  
+  .card_list{
+    background-color:hsla(0, 0%, 27%, 0.5);
+    
+    margin:20px;
+    box-sizing: border-box;
+    margin: 50px;
+    border:2px solid white;
+    height:auto;
+    box-shadow: 4px 4px 10px 5px white;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .card_list:hover{
+    background-color:rgba(0, 0, 0, 0.8);
+    box-shadow: none;
+  }
+  .thick{
+    font-weight: bolder;
+    color:yellow;
+    width:150px;
+ 
+  }
+  tr{
+    text-align:center;
+    margin: 100px;
+  }
+  td{
+    padding:5px;
+  }
+  tr:nth-child(2n+1){
+    background-color:rgba(255, 255, 255, 0.5)
+  }
+  .thin{
+    font-size: 12px;
+  }
