@@ -65,8 +65,8 @@ This project is practical implementation of data structures. This website finds 
  <img src="https://github.com/kushwanthlelo/Route_founder_with_ReactJS/blob/main/webreadme/p13.JPG">
  
  * Sending Confirmation Mails
-  <img src="https://github.com/kushwanthlelo/Route_founder/blob/master/webreadme/two3.JPG" width="80%">
- <img src="https://github.com/kushwanthlelo/Route_founder/blob/master/webreadme/two4.JPG" width="80%">
+  <img src="https://github.com/kushwanthlelo/Route_founder/blob/main/webreadme/two3.JPG" width="80%">
+ <img src="https://github.com/kushwanthlelo/Route_founder/blob/main/webreadme/two4.JPG" width="80%">
 
  
  ## Tools and Technologies used
